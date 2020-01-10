@@ -1,6 +1,119 @@
+
+/*Website Color Themes*/
 .bg-primary{
     background: #005287;
 }
 .fg-primary{
     color: #005287;
+}
+
+.bg-secondary{
+    background: #F24405;
+}
+.fg-secondary{
+    color:#F24405;
+}
+
+.fg-tertiary{
+    color: #F2E9BD;
+}
+.bg-tertiary{
+    background: #F2E9BD;
+}
+/*End of Website Color Themes*/
+
+/*CSS Wand button stuff*/
+.button-Shadow {
+    color: #F24405;
+    background-color: transparent;
+    border: 1px solid #F24405;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: auto;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    }
+.button-Shadow:hover {
+    box-shadow: 1px 1px #F55C02, 2px 2px #F55C02, 3px 3px #F55C02;
+    transform: translateX(-3px);
+}
+
+.button-Swing {
+    color: #F24405;
+    background-color: transparent;
+    border: 1px solid #F24405;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: auto;
+    font-size:14px;
+    transition: all 0.2s ease-in-out;
+    }
+.button-Swing:hover {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+    }
+    @keyframes swing {
+    15% {
+    transform: translateX(5px);
+    }
+    30% {
+    transform: translateX(-5px);
+    }
+    50% {
+    transform: translateX(3px);
+    }
+    65% {
+    transform: translateX(-3px);
+    }
+    80% {
+    transform: translateX(2px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+/*End of CSS Wand button stuff*/
+
+.transition{
+    transition: .4s;
+}
+.sandwhich{
+    font-size: 2em;
+    position:fixed;
+    left:5px;
+    top: 5px;
+    outline: none;
+}
+.bar-item{
+    display: inline-block;
+    font-size: 1.5em;
+    text-align:center;
+    transition: .4s;
+}
+.navBar{
+    position:fixed;
+    top: 0;
+    width:100%;
+    height: auto;
+    padding: 0 10%;
+    text-align:center;
+}
+.btn{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    height:inherit;
+}
+.btn:hover{
+    background: #F24405;
 }
