@@ -1,4 +1,16 @@
 
+hr{
+    display: block;
+    height: 1px;
+    border: 2em;
+    border-top: 3px solid #F27405;
+	border-radius: 10%;
+    margin: auto;
+    padding: 0; 
+	width:75%;
+}
+
+
 /*Website Color Themes*/
 .bg-primary{
     background: #005287;
@@ -87,10 +99,10 @@
     outline: none;
 }
 .bar-item{
-    display: inline-block;
     font-size: 1.5em;
     text-align:center;
     transition: .4s;
+    display:block;
 }
 .navBar{
     position:fixed;
@@ -102,9 +114,8 @@
 }
 .btn{
     border:none;
-    display:inline-block;
     padding:8px 16px;
-    vertical-align:middle;
+    vertical-align:center;
     overflow:hidden;
     text-decoration:none;
     color:inherit;
@@ -112,8 +123,7 @@
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    height:inherit;
 }
 .btn:hover{
-    background: #F24405;
+    color: #F24405;
 }

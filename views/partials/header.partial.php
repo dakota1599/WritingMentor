@@ -19,7 +19,7 @@ require "core/variables.php";
     <!--Access to the main project css file-->
     <link type="text/css" rel="stylesheet" href="<?= $web ?>core/css/main.css">
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One&display=swap" rel="stylesheet">
 
     <script src="<?= $web ?>core/js/main.js">
     </script>
@@ -31,7 +31,7 @@ require "core/variables.php";
     h4,
     h5,
     h6 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Text Me One', sans-serif;
     }
     </style>
 
@@ -39,7 +39,16 @@ require "core/variables.php";
 
 <body>
 
+    <!--
     <div class="w3-card-4 navBar bg-primary fg-tertiary transition" id="bar">
         <a class="btn bar-item w3-round-medium" href="home">Home</a>
         <a class="btn bar-item w3-round-medium" href="about">About</a>
+    </div>
+-->
+
+    <button class="sandwhich button-Swing" style="border:none" onclick="toggle()">&#9776;</button>
+    <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-hide" id="bar">
+        <a class="w3-bar-item btn bar-item" style="text-align:center;margin-top: .5em;" onclick="toggle()">&times;</a>
+        <hr>
+        <a class="w3-bar-item btn bar-item" onclick="toggle()">Home</a>
     </div>
