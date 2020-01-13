@@ -88,11 +88,13 @@ hr{
 }
 /*End of CSS Wand button stuff*/
 
+/*Header Stuff*/
 .transition{
     transition: .4s;
 }
 .sandwhich{
     font-size: 2em;
+    margin-top: .2em;
     position:fixed;
     left:5px;
     top: 5px;
@@ -109,7 +111,7 @@ hr{
     top: 0;
     width:100%;
     height: auto;
-    padding: 0 10%;
+    padding: 0 10px;
     text-align:center;
 }
 .btn{
@@ -127,6 +129,10 @@ hr{
 .btn:hover{
     color: #F24405;
 }
+#navBackground h2{
+    float:right;
+}
+/*End of Header Stuff*/
 /*This is all for the footer.*/
 #footer {
     padding-top: .5em;
@@ -170,4 +176,10 @@ hr{
       #footer{
           margin-top: 0;
       }
+      #navText{
+        font-size: 1.1em;
+    }
+    .sandwhich{
+        margin-top:-.1em;
+    }
   }

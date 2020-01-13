@@ -1,6 +1,10 @@
 <?php 
+//Browser tab title info
 $title="Home";
+//Direct to this pages css file
 $css="home.css";
+//Custom nav information
+$nav="Writing Classes, Tutoring, and Proofreading";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

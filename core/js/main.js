@@ -14,14 +14,17 @@ function close(){
 window.addEventListener('scroll', function(){
     var shadow = "0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)"
     var sand = document.getElementById("sand");
-    var back = document.getElementById("background");
+    var navText = document.getElementById("navText");
+    var back = document.getElementById("navBackground");
     if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
-        sand.style.backgroundColor = "#005287";
-        sand.style.boxShadow = shadow;
+        back.style.backgroundColor = "#005287";
+        back.style.boxShadow = shadow;
         sand.style.color = "white";
+        navText.style.color = "white";
     }else{
-        sand.style.backgroundColor = "transparent";
-        sand.style.boxShadow = "none";
+        back.style.backgroundColor = "transparent";
+        back.style.boxShadow = "none";
         sand.style.color = "#F24405";
+        navText.style.color = "#333447";
     }
 })

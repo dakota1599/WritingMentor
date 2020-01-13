@@ -46,7 +46,10 @@ require "core/variables.php";
 <!--This is a wrapper so that the footer can stick to the bottom of the page and not be fixed.-->
 <div class="wrapper">
     <!--Navigation sandwhich w/ wrapper.-->
-    <button class="sandwhich button-Swing" id="sand" style="border:none" onclick="toggle()">&#9776;</button>
+    <div id="navBackground" class="navBar transition">
+        <button class="sandwhich button-Swing" id="sand" style="border:none" onclick="toggle()">&#9776;</button>
+        <h2 id="navText"><?= $nav;?></h2>
+    </div>
     <!--Actual navigation menu.-->
     <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-hide" id="bar" style="top:0;">
         <a class="w3-bar-item btn bar-item" style="text-align:center;margin-top: .5em;" onclick="toggle()">&times;</a>
