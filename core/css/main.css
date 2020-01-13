@@ -38,16 +38,16 @@ hr{
 .button-Shadow {
     color: #F24405;
     background-color: transparent;
-    border: 1px solid #F24405;
+    border: 2.5px solid #F24405;
     border-radius: 4px;
-    padding: 0 15px;
+    padding: 5px 15px;
     cursor: pointer;
     height: auto;
-    font-size:14px;
+    font-size: 30px;
     transition: all 0.2s ease-in-out;
     }
 .button-Shadow:hover {
-    box-shadow: 1px 1px #F55C02, 2px 2px #F55C02, 3px 3px #F55C02;
+    box-shadow: 1px 1px #005287, 2px 2px #005287, 3px 3px #005287, 4px 4px #005287;
     transform: translateX(-3px);
 }
 
@@ -127,3 +127,47 @@ hr{
 .btn:hover{
     color: #F24405;
 }
+/*This is all for the footer.*/
+#footer {
+    padding-top: .5em;
+    height:110px;
+    margin-top: -110px;
+    width:100%;
+    background:#005287;
+    text-align:center;
+ }
+ #footer p{
+    color:white;
+ }
+ #footerLink{
+     color: #F24405;
+     text-decoration: none;
+ }
+#footerLink:active, #footerLink:visited{
+     color: #F24405;
+ }
+ #footerLink:hover{
+     color: #F2E9BD;
+ }
+
+ html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  /*End of Footer Section.*/
+
+
+
+  /*Media Queries*/
+  @media only screen and (max-width: 550px){
+      #footer{
+          margin-top: 0;
+      }
+  }

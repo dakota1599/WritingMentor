@@ -1,0 +1,71 @@
+
+#headerImage{
+    background-image: url("http://production.dakotashapiro.info/core/resources/page.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 30em;
+
+    border-top: 4px solid #005287;
+    border-bottom: 4px solid #005287;
+    margin: 5em auto;
+    padding: 6em 0;
+    text-align:center;
+}
+
+.center{
+    display:inline-block;
+    text-align:center;
+    background: #F24405;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.titleText{
+    font-size: 5em;
+}
+
+.row-1{
+    text-align:center;
+    margin:auto;
+}
+.gen-headers{
+    text-decoration: underline;
+    text-decoration-color: #F24405;
+    font-weight:bold;
+    margin-bottom: 1em;
+}
+.links{
+    display: inline;
+}
+.indv-link{
+    margin: 1em 2em;
+    text-decoration:none;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 900px){
+    #headerImage{
+        height: 20em;
+        padding: 3.5em 0;
+    }
+    .titleText{
+        font-size: 3em;
+    }
+    .indv-link{
+        margin: .5em;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .links{
+        display: inline-block;
+    }
+    .indv-link{
+        display: block;
+    }
+    .row-1{
+        margin-bottom: 7em;
+    }
+}

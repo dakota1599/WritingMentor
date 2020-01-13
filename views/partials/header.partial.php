@@ -19,7 +19,7 @@ require "core/variables.php";
     <!--Access to the main project css file-->
     <link type="text/css" rel="stylesheet" href="<?= $web ?>core/css/main.css">
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Text+Me+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
 
     <script src="<?= $web ?>core/js/main.js">
     </script>
@@ -31,24 +31,28 @@ require "core/variables.php";
     h4,
     h5,
     h6 {
-        font-family: 'Text Me One', sans-serif;
+        font-family: 'Bebas Neue', cursive;
     }
     </style>
+
+    <!--AOS Stuff-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 </head>
 
 <body>
 
-    <!--
-    <div class="w3-card-4 navBar bg-primary fg-tertiary transition" id="bar">
-        <a class="btn bar-item w3-round-medium" href="home">Home</a>
-        <a class="btn bar-item w3-round-medium" href="about">About</a>
-    </div>
--->
-
-    <button class="sandwhich button-Swing" style="border:none" onclick="toggle()">&#9776;</button>
-    <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-hide" id="bar">
+<!--This is a wrapper so that the footer can stick to the bottom of the page and not be fixed.-->
+<div class="wrapper">
+    <!--Navigation sandwhich w/ wrapper.-->
+    <button class="sandwhich button-Swing" id="sand" style="border:none" onclick="toggle()">&#9776;</button>
+    <!--Actual navigation menu.-->
+    <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-hide" id="bar" style="top:0;">
         <a class="w3-bar-item btn bar-item" style="text-align:center;margin-top: .5em;" onclick="toggle()">&times;</a>
         <hr>
-        <a class="w3-bar-item btn bar-item" onclick="toggle()">Home</a>
+        <a href="home" class="w3-bar-item btn bar-item" onclick="toggle()">Home</a>
+        <a href="about" class="w3-bar-item btn bar-item" onclick="toggle()">About</a>
+        <a href="services" class="w3-bar-item btn bar-item" onclick="toggle()">Services</a>
+        <a href="contact" class="w3-bar-item btn bar-item" onclick="toggle()">Contact</a>
     </div>
