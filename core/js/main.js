@@ -19,8 +19,8 @@ window.addEventListener('scroll', function(){
     if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
         back.style.backgroundColor = "#005287";
         back.style.boxShadow = shadow;
-        sand.style.color = "white";
-        navText.style.color = "white";
+        sand.style.color = "#F2E9BD";
+        navText.style.color = "#F2E9BD";
     }else{
         back.style.backgroundColor = "transparent";
         back.style.boxShadow = "none";
