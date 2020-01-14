@@ -16,7 +16,7 @@ require "views/partials/header.partial.php";
 
 <!--Header image is the picture that is behind the about sheet.-->
 <div id="headerImage" class="transition">
-    <div class="row-1">
+    <div class="row-1" data-aos="fade-up" data-aos-duration="1100">
     <!--Kaitlin's photo-->
     <img height="200" width="200" class="profile w3-card-2 transition" alt="Prof. Kailtin" src="<?=$web?>core/resources/kait.jpg">
         <section class="sheet w3-card-4 transition bg-tertiary">
