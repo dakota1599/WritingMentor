@@ -5,6 +5,8 @@ $title="Home";
 $css="home.css";
 //Custom nav information
 $nav="Writing Classes, Tutoring, and Proofreading";
+//Custom Body Size for the Footer
+$body="100%";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";
@@ -18,7 +20,7 @@ require "views/partials/header.partial.php";
         <h1 class="fg-tertiary titleText transition">Writing Mentor</h1>
         <p>
             <!--Quote/Motto-->
-            <q class="fg-tertiary" style="font-family: 'Permanent Marker', cursive;">We're the difference between<br>
+            <q class="fg-tertiary" style="font-family: 'Permanent Marker', cursive;">I'm the difference between<br>
             there, their, and they're.</q>
         </p>
     </div>
@@ -29,11 +31,11 @@ require "views/partials/header.partial.php";
     <h1 class="gen-headers fg-primary">Explore Our Site!</h1>
     <div class="links">
         <!--Direct to About Page-->
-        <a href="about" class="button-Shadow indv-link transition" title="About Us">About Us</a>
+        <a href="/about" class="button-Shadow indv-link transition" title="About Me">About Me</a>
         <!--Direct to Services Page-->
-        <a href="services" class="button-Shadow indv-link transition" title="Our Services"> Our Services</a>
+        <a href="/services" class="button-Shadow indv-link transition" title="Tutoring Services">Tutoring Services</a>
         <!--Direct to Contact Page-->
-        <a href="contact" class="button-Shadow indv-link transition" title="Contact Us!">Contact Us!</a>
+        <a href="/contact" class="button-Shadow indv-link transition" title="Contact Me!">Contact Me!</a>
     </div>
 </div>
 

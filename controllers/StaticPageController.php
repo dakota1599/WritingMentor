@@ -19,6 +19,10 @@ class StaticPageController{
     public function services(){
         $this->View("services");
     }
+    //This directs to the contact page.
+    public function contact(){
+        $this->View("contact");
+    }
 
 
     //This is just so that I don't have to type .view.php over and over.  Cleans up the code a bit.

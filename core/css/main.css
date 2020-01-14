@@ -10,6 +10,14 @@ hr{
 	width:75%;
 }
 
+.a, .a:visited, .a:active{
+    color: #F24405;
+    text-decoration:none;
+}
+.a:hover{
+    color: #F27405;
+}
+
 
 /*Website Color Themes*/
 .bg-primary{
@@ -113,6 +121,7 @@ hr{
     height: auto;
     padding: 0 10px;
     text-align:center;
+    z-index: 1;
 }
 .btn{
     border:none;
@@ -158,8 +167,6 @@ hr{
     margin: 0;
   }
   .wrapper {
-    min-height: 100%;
-  
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;

@@ -33,6 +33,9 @@ require "core/variables.php";
     h6 {
         font-family: 'Bebas Neue', cursive;
     }
+    .wrapper{
+        min-height:<?=$body?>;
+    }
     </style>
 
     <!--AOS Stuff-->
@@ -54,8 +57,8 @@ require "core/variables.php";
     <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-card-4 w3-hide" id="bar" style="top:0;">
         <a class="w3-bar-item btn bar-item" style="text-align:center;margin-top: .5em;" onclick="toggle()">&times;</a>
         <hr>
-        <a href="home" class="w3-bar-item btn bar-item" onclick="toggle()">Home</a>
-        <a href="about" class="w3-bar-item btn bar-item" onclick="toggle()">About</a>
-        <a href="services" class="w3-bar-item btn bar-item" onclick="toggle()">Services</a>
-        <a href="contact" class="w3-bar-item btn bar-item" onclick="toggle()">Contact</a>
+        <a href="/home" class="w3-bar-item btn bar-item" onclick="toggle()">Home</a>
+        <a href="/about" class="w3-bar-item btn bar-item" onclick="toggle()">About</a>
+        <a href="/services" class="w3-bar-item btn bar-item" onclick="toggle()">Services</a>
+        <a href="/contact" class="w3-bar-item btn bar-item" onclick="toggle()">Contact</a>
     </div>

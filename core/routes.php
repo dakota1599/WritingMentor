@@ -5,7 +5,8 @@ $routes = [
     'home' => 'StaticPageController@home',
     '' => 'StaticPageController@home',
     'about' => 'StaticPageController@about',
-    'services' => 'StaticPageController@services'
+    'services' => 'StaticPageController@services',
+    'contact' => 'StaticPageController@contact'
 ]
 
 ?>
