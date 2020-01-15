@@ -17,6 +17,9 @@ hr{
 .a:hover{
     color: #F27405;
 }
+.bold{
+    font-weight: bold;
+}
 
 
 /*Website Color Themes*/
@@ -141,6 +144,12 @@ hr{
 #navBackground h2{
     float:right;
 }
+.gen-headers{
+    text-decoration: underline;
+    text-decoration-color: #F24405;
+    font-weight:bold;
+    margin-bottom: 1em;
+}
 /*End of Header Stuff*/
 /*This is all for the footer.*/
 #footer {
@@ -166,12 +175,6 @@ hr{
     height: 100%;
     margin: 0;
   }
-  .wrapper {
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
-  }
-  /*End of Footer Section.*/
 
 
 

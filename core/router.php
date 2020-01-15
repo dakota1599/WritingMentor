@@ -1,6 +1,7 @@
 <?php 
 //This will require all the controller files I will need.
 require 'controllers/StaticPageController.php';
+require 'controllers/ServiceController.php';
 
 //Router class for routing user requests to the right method in the right controller.
 class Router{

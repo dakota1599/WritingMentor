@@ -30,12 +30,7 @@
     text-align:center;
     margin:auto;
 }
-.gen-headers{
-    text-decoration: underline;
-    text-decoration-color: #F24405;
-    font-weight:bold;
-    margin-bottom: 1em;
-}
+
 .links{
     display: inline;
 }
