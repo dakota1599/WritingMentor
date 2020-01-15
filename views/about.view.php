@@ -29,7 +29,7 @@ require "views/partials/header.partial.php";
                 <br>
                 <span class="tab">I</span> have a master’s degree in communication with a focus on professional writing. I worked as an adjunct
                 professor teaching college writing for a local university. When time allows, I share my musings about
-                life on my blog (tatertotsanddonuts.wordpress.com). I work part time as a persona trainer at Zoo City
+                life on my blog (tatertotsanddonuts.wordpress.com). I work part time as a personal trainer at Zoo City
                 Fitness and Personal Training.
                 <br>
                 <span class="tab">I</span> currently offer tutoring services to students of all ages as well as student athletes. I also edit and
