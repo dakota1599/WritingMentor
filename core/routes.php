@@ -13,7 +13,8 @@ $routes = [
     'service-counseling' => 'ServiceController@counsel',
     'service-editing' => 'ServiceController@edit',
     'service-speech' => 'ServiceController@speech',
-    'service-class' => 'ServiceController@class'
+    'service-class' => 'ServiceController@class',
+    'submit-form' => 'ServiceController@submit'
 ]
 
 ?>

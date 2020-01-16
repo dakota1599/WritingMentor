@@ -1,0 +1,32 @@
+.row-1{
+    margin: 8em auto auto;
+    text-align:center;
+}
+.thank{
+    font-size: 7em;
+}
+.body{
+    width: 20em;
+    font-size: 2em;
+    margin:auto;
+}
+.divider{
+    width: 25em;
+}
+
+
+@media only screen and (max-width: 660px){
+    .body{
+        font-size: 1.5em;
+        width: 15em;
+    }
+    .divider{
+        width: 15em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .thank{
+        font-size: 4em;
+    }
+}

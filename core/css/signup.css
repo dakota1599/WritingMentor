@@ -1,0 +1,33 @@
+.input{
+    outline: none;
+    text-align:left;
+    resize: none;
+    transition: .4s;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.input:hover{
+    border-bottom: 5px solid #F24405;
+}
+.row-1{
+    margin: 6em auto auto;
+    text-align:center;
+}
+table{
+    margin:auto;
+    display:inline-block;
+}
+td{
+    padding: 0 2em;
+}
+
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+    margin-top:.7em;
+  }
+
+.submit{
+    width: 100%;
+    margin-top: 1em;
+}
