@@ -51,7 +51,7 @@ require "core/variables.php";
     <!--Navigation sandwhich w/ wrapper.-->
     <div id="navBackground" class="navBar transition">
         <button class="sandwhich button-Swing" id="sand" style="border:none" onclick="toggle()">&#9776;</button>
-        <h2 id="navText"><?= $nav;?></h2>
+        <h2 id="navText" class="fg-primary"><?= $nav;?></h2>
     </div>
     <!--Actual navigation menu.-->
     <div class="w3-sidebar bg-primary fg-tertiary w3-animate-left w3-card-4 w3-hide" id="bar" style="top:0;">

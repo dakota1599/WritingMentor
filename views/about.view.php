@@ -21,7 +21,7 @@ require "views/partials/header.partial.php";
     <img height="200" width="200" class="profile w3-card-2 transition" alt="Prof. Kailtin" src="<?=$web?>core/resources/kait.jpg">
         <section class="sheet w3-card-4 transition bg-tertiary">
             <!--Title-->
-            <h1 class="fg-primary transition">Kailtin</h1>
+            <h1 class="fg-primary transition">Kaitlin</h1>
             <!--About Paragraphs-->
             <p class="transition"> <span class="tab">This</span> service was born out of a need for inspiration, motivation, and accountability. Not just for myself,
                 but for the community around me. There are many stories that want and need to be shared and I want to do

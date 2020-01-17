@@ -28,14 +28,14 @@ require "views/partials/header.partial.php";
 
 <!--This section exists so that the user can have a landing area to go and explore the rest of the website-->
 <div class="row-1" data-aos="fade-up" data-aos-duration="1500">
-    <h1 class="gen-headers fg-primary">Explore the Site!</h1>
+    <h1 class="gen-headers fg-primary">Explore the Site</h1>
     <div class="links">
         <!--Direct to About Page-->
         <a href="/about" class="button-Shadow indv-link transition" title="About Me">About Me</a>
         <!--Direct to Services Page-->
         <a href="/services" class="button-Shadow indv-link transition" title="Tutoring Services">Tutoring Services</a>
         <!--Direct to Contact Page-->
-        <a href="/contact" class="button-Shadow indv-link transition" title="Contact Me!">Contact Me!</a>
+        <a href="/contact" class="button-Shadow indv-link transition" title="Contact Me!">Contact Me</a>
     </div>
 </div>
 

@@ -25,6 +25,6 @@ window.addEventListener('scroll', function(){
         back.style.backgroundColor = "transparent";
         back.style.boxShadow = "none";
         sand.style.color = "#F24405";
-        navText.style.color = "#333447";
+        navText.style.color = "#005287";
     }
 })
