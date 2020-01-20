@@ -20,7 +20,8 @@ require "views/partials/header.partial.php";
         <h1 class="fg-tertiary titleText transition">Writing Mentor</h1>
         <p>
             <!--Quote/Motto-->
-            <q class="fg-tertiary" style="font-family: 'Permanent Marker', cursive;">I'm the difference between<br>
+            <q class="fg-tertiary"
+            style="font-family: 'Euphoria Script', cursive; font-weight:bold; font-size: 1.2em;">I'm the difference between<br>
             there, their, and they're.</q>
         </p>
     </div>

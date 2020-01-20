@@ -19,7 +19,7 @@ require "core/variables.php";
     <!--Access to the main project css file-->
     <link type="text/css" rel="stylesheet" href="<?= $web ?>core/css/main.css">
     <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Pacifico|Permanent+Marker|Euphoria+Script&display=swap" rel="stylesheet">
 
     <script src="<?= $web ?>core/js/main.js">
     </script>

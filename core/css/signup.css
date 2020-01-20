@@ -6,7 +6,7 @@
     font-size: 2em;
     letter-spacing: 2px;
 }
-.input:hover{
+.input:hover, .input:focus{
     border-bottom: 5px solid #F24405;
 }
 .row-1{

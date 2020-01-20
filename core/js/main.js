@@ -11,6 +11,41 @@ function close(){
     document.getElementById("Sidebar").style.display = "none";
 }
 
+function formSubmit(){
+    var form = document.getElementById("submit");
+    var name = document.getElementById("name");
+    var last = document.getElementById("last");
+    var email = document.getElementById("email");
+    var result = document.getElementById("result");
+
+    if(name.value == ""){
+        name.focus();
+        result.innerHTML = "First name cannot be blank.";
+        result.style.color = "red";
+    }
+    else if(last.value == ""){
+        last.focus()
+        result.innerHTML = "Last Name cannot be blank.";
+        result.style.color = "red";
+    }
+    else if(email.value == ""){
+        email.focus();
+        result.innerHTML = "Email cannot be blank.";
+        result.style.color = "red";
+    }
+    else{
+        form.submit();
+    }
+}
+
+
+
+
+
+
+
+
+
 window.addEventListener('scroll', function(){
     var shadow = "0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)"
     var sand = document.getElementById("sand");
