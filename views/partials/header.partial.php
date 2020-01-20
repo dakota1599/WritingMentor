@@ -10,6 +10,8 @@ require "core/variables.php";
     <title><?= $title ?> | Writing Mentor</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tab Icon-->
+    <link rel="shortcut icon" href="<?=$web?>core/resources/icon.png">
     <!--Access to the W3schools css library-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!--Access to the simple grid css-->
