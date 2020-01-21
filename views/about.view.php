@@ -23,18 +23,17 @@ require "views/partials/header.partial.php";
             <!--Title-->
             <h1 class="fg-primary transition">Kaitlin</h1>
             <!--About Paragraphs-->
-            <p class="transition"> <span class="tab">This</span> service was born out of a need for inspiration, motivation, and accountability. Not just for myself,
-                but for the community around me. There are many stories that want and need to be shared and I want to do
-                my part in helping them get written.
+            <p class="transition"> <span class="tab">This</span> service was born out of a need for inspiration, motivation, and accountability. 
+                Not just for myself, but for the community around me. There are many stories that want and need to be shared and I want to do my 
+                part in helping them get written.
                 <br>
-                <span class="tab">I</span> have a master’s degree in communication with a focus on professional writing. I worked as an adjunct
-                professor teaching college writing for a local university. When time allows, I share my musings about
-                life on my blog (tatertotsanddonuts.wordpress.com). I work part time as a personal trainer at Zoo City
-                Fitness and Personal Training.
+                <span class="tab">I</span> have a master’s degree in communication with a focus on professional writing. I worked as an adjunct 
+                professor teaching college writing for a local university. When time allows, I share my musings about life on my blog 
+                (tatertotsanddonuts.wordpress.com).
                 <br>
-                <span class="tab">I</span> currently offer tutoring services to students of all ages as well as student athletes. I also edit and
-                proofread any and all types of writing. I can also help you get your story from your head and heart to
-                the paper. Whether you need motivation, inspiration, or the grammar and mechanics of it.
+                <span class="tab">I</span> currently offer tutoring services to students of all ages. I also offer editing and proofreading 
+                for any and all types of writing. I can also help you get your story from your head and heart to the paper. Whether you need 
+                motivation, inspiration, or the grammar and mechanics of it.
             </p>
         </section>
     </div>

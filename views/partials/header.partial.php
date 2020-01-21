@@ -8,8 +8,11 @@ require "core/variables.php";
 
 <head>
     <title><?= $title ?> | Writing Mentor</title>
+    <!--Meta Information-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Writing tutoring and mentoring in the greater Kalamzoo, Mi area.">
+    <meta name="keywords" content="tutoring,writing,speech preparation,writing classes,editing and proofreading,public speaking,writing help,kalamazoo,mi,michigan,kazoo,kzoo">
     <!--Tab Icon-->
     <link rel="shortcut icon" href="<?=$web?>core/resources/icon.png">
     <!--Access to the W3schools css library-->

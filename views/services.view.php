@@ -53,15 +53,16 @@ require "views/partials/header.partial.php";
         </div>
         <!--Card Description-->
         <p>
-        These are one-on-one counseling sessions for those 
-        who want to pursue writing but are not sure of the steps.
+        One-on-one counseling sessions designed for those who want to 
+        pursue writing but are unsure of the next step. Those who need 
+        a boost of confidence, untangling of ideas, or a brainstorming session.
         <br><br>
-        These sessions are designed for the individual who wants 
-        to improve their writing skills, but not pursue college classes. 
-        To work independently and at their own pace.
+        Designed for the individual who wants to improve their writing skills 
+        but may not have the time pursue college classes. Or the individual who 
+        prefers to work independently and at their own pace. 
         <br><br>
-        There are no age or topic restrictions for this; I will help you
-         move forward from wherever you are in your writing journey.
+        There are no age or topic restrictions for this; I will help you move 
+        forward from wherever you are in your writing journey.
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
@@ -102,13 +103,12 @@ require "views/partials/header.partial.php";
         </div>
         <!--Card Description-->
         <p>
-        Do you have a speech or verbal presentation coming up? 
-        Not a public speaker? Not sure where to start or what 
-        to say? I can help. From choosing, narrowing down, and
-         fully preparing and writing the speech to practicing 
-         the presentation. I will offer suggestions on tightening
-          up the subject matter all the way to how to clearly and
-           effectively communicate your presentation.
+        Do you have a speech or verbal presentation coming up? Not a 
+        public speaker? Not sure where to start or what to say? I can help. 
+        From choosing, narrowing down, and fully preparing and writing the 
+        speech to practicing the presentation. I will offer suggestions and 
+        feedback on tightening up the subject matter to how to clearly and 
+        effectively communicate your presentation.
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
