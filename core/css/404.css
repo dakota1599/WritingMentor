@@ -1,3 +1,4 @@
+/*404 Page CSS*/
 .row-1{
     margin-top: 5em;
     height: auto;
@@ -30,6 +31,7 @@
     font-size: 2em;
 }
 
+/*Media Queries*/
 @media only screen and (max-width: 1050px){
     .right p{
         font-size: 1.5em;

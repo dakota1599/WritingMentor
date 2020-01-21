@@ -59,8 +59,8 @@ require "views/partials/header.partial.php";
                 </tr>
             </tbody>
         </table>
-        <?php //Comment in PHP so that it is not too obvious.  But these two hold the type of sign up
-              //and the anti forgery token.  ?>
+        <?php //Comment in PHP so that it is not too obvious.  But this holds
+              //the anti forgery token.  ?>
         <input style="display:none;" name="token" value="<?=$token;?>">
     </form>
     <p id="result"><?=$result;?></p>

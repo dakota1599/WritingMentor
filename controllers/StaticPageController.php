@@ -21,6 +21,8 @@ class StaticPageController{
     }
     //This directs to the contact page.
     public function contact(){
+        //If the request type is post, then it goes through the process of submitting the contact
+        //request.
         if(Request::RequestMethod() == "POST"){
             
             $result = "";
@@ -101,6 +103,9 @@ class StaticPageController{
         require "views/".$page.".view.php";
         
     }
+    //Method overloading doesn't seem to exists in PHP, or at least the traditional method of 
+    //overloading methods is not used.  To work around that I created another method for
+    //the contact method up above.
     protected function View_Contact($page, $result){
         require "views/".$page.".view.php";
     }
