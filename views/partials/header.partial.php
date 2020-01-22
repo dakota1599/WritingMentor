@@ -41,6 +41,13 @@ require "core/variables.php";
     .wrapper{
         min-height:<?=$body?>;
     }
+
+
+    @media only screen and (max-height: 750px){
+        .wrapper{
+            min-height: 150%;
+        }
+    }
     </style>
 
     <!--AOS Stuff-->

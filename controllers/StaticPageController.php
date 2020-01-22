@@ -19,6 +19,10 @@ class StaticPageController{
     public function services(){
         $this->View("services");
     }
+    //This directs to the test page.
+    public function testing(){
+        $this->View("testing");
+    }
     //This directs to the contact page.
     public function contact(){
         //If the request type is post, then it goes through the process of submitting the contact

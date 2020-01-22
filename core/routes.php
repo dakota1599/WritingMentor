@@ -8,6 +8,7 @@ $routes = [
     'about' => 'StaticPageController@about',
     'services' => 'StaticPageController@services',
     'contact' => 'StaticPageController@contact',
+    'testing' => 'StaticPageController@testing',
     //These are the services routes.
     'service-tutoring' => 'ServiceController@tutor',
     'service-counseling' => 'ServiceController@counsel',
