@@ -1,3 +1,4 @@
+/*For centering the page.*/
 .row-1{
     margin: 11em auto auto;
     text-align:center;
@@ -12,6 +13,19 @@ td{
 .pay-header{
     font-size: 4em;
 }
+/*Button Spacing*/
 button{
     margin-top: 2em;
+}
+/*For the amount displayed*/
+.money{
+    font-size: 2em;
+    margin-top: 0;
+}
+/*Make the PayPal Div look nicer.*/
+.pay-div{
+    width: 85%;
+    margin: auto;
+    position:relative;
+    z-index: 0;
 }

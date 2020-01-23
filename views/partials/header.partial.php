@@ -70,4 +70,5 @@ require "core/variables.php";
         <a href="/about" class="w3-bar-item btn bar-item" onclick="toggle()">About</a>
         <a href="/services" class="w3-bar-item btn bar-item" onclick="toggle()">Services</a>
         <a href="/contact" class="w3-bar-item btn bar-item" onclick="toggle()">Contact</a>
+        <a href="/pay" class="w3-bar-item btn bar-item" onclick="toggle()">Pay</a>
     </div>
