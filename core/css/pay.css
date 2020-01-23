@@ -1,0 +1,17 @@
+.row-1{
+    margin: 11em auto auto;
+    text-align:center;
+}
+table{
+    margin:auto;
+    display:inline-block;
+}
+td{
+    padding: 0 2em;
+}
+.pay-header{
+    font-size: 4em;
+}
+button{
+    margin-top: 2em;
+}

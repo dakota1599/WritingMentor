@@ -1,3 +1,4 @@
+//Toggles the side bar.
 function toggle(){
     var bar = document.getElementById("bar");
     
@@ -11,6 +12,7 @@ function close(){
     document.getElementById("Sidebar").style.display = "none";
 }
 
+//Standard form submission validation.
 function formSubmit(){
     var form = document.getElementById("submit");
     var name = document.getElementById("name");
@@ -34,6 +36,19 @@ function formSubmit(){
         result.style.color = "red";
     }
     else{
+        form.submit();
+    }
+}
+
+//Checks the amount for the payment page.
+function checkAmt(){
+    var form = document.getElementById("form");
+    var amt = document.getElementById("amt");
+
+    if(amt.value <= 0){
+        alert("You must enter a payment amount.");
+        amt.focus();
+    }else{
         form.submit();
     }
 }

@@ -6,7 +6,7 @@ $css="about.css";
 //Custom nav information
 $nav="About Your Tutor";
 //Custom Body Size for the Footer
-$body="120%";
+$body="120vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

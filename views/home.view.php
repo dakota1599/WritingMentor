@@ -6,7 +6,7 @@ $css="home.css";
 //Custom nav information
 $nav="Writing Classes, Tutoring, and Proofreading";
 //Custom Body Size for the Footer
-$body="100%";
+$body="100vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

@@ -6,7 +6,7 @@ $css="signup.css";
 //Custom nav information
 $nav=$type." Sign Up";
 //Custom Body Size for the Footer
-$body="100%";
+$body="100vh";
 
 //Generate antiforgery token
 if (empty($_SESSION['token'])) {

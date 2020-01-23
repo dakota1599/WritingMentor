@@ -39,14 +39,11 @@ require "core/variables.php";
         font-family: 'Bebas Neue', cursive;
     }
     .wrapper{
-        min-height:<?=$body?>;
+        min-height:100%;
+        margin-bottom: 8em;
     }
-
-
-    @media only screen and (max-height: 750px){
-        .wrapper{
-            min-height: 150%;
-        }
+    html, body{
+        height:<?=$body?>;
     }
     </style>
 

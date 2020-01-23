@@ -21,6 +21,18 @@ hr{
     font-weight: bold;
 }
 
+.input{
+    outline: none;
+    text-align:left;
+    resize: none;
+    transition: .4s;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.input:hover, .input:focus{
+    border-bottom: 5px solid #F24405;
+}
+
 
 /*Website Color Themes*/
 .bg-primary{
@@ -170,11 +182,6 @@ hr{
  #footerLink:hover{
      color: #F2E9BD;
  }
-
- html, body {
-    height: 100%;
-    margin: 0;
-  }
 
 
 

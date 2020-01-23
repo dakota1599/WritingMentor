@@ -6,20 +6,13 @@ $css="services.css";
 //Custom nav information
 $nav="Tutoring Services";
 //Custom Body Size for the Footer
-$body="150%";
+$body="150vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";
 
 ?>
 
-<style>
-    @media only screen and (max-height: 749px){
-        .wrapper{
-            min-height: 260%;
-        }
-    }
-</style>
 
 <div class="row-1">
     <h1 class="fg-primary gen-headers">Services Provided</h1>
