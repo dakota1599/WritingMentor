@@ -46,7 +46,7 @@ function checkAmt(){
     var amt = document.getElementById("amt");
 
     if(amt.value <= 0){
-        alert("You must enter a payment amount.");
+        alert("You must enter a payment amount of .01 or greater.");
         amt.focus();
     }else{
         form.submit();

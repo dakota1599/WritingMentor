@@ -14,7 +14,7 @@ require "views/partials/header.partial.php";
 ?>
 
 <!--This is the GET page so the user can enter in their owed amount.-->
-<div class="row-1">
+<div class="row">
     <h1 class="gen-headers fg-primary pay-header">Set Payment Amount</h1>
     <form action="/pay" method="post" id="form">
         <table>
