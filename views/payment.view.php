@@ -14,7 +14,7 @@ require "views/partials/header.partial.php";
 ?>
 
 <!--This is the payment page.  The user will pay here using paypal or a debit/credit card.-->
-<div class="row-1">
+<div class="row" id="pay">
     <!--Header-->
     <h1 class="gen-headers pay-header fg-primary" style="margin-bottom:0;">Checkout</h1>
     <p class="money">$<?=$string_num?></p>
@@ -46,7 +46,12 @@ require "views/partials/header.partial.php";
             },
             onApprove: function(data, actions) {
                 return actions.order.capture().then(function(details) {
-                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                    var pay = document.getElementById("pay");
+                    var thank = document.getElementById("thank");
+                    var mon = document.getElementById("mon");
+                    pay.style.display = "none";
+                    thank.style.display = "block";
+                    mon.innerHTML = 'Transaction of $<?=$string_num?> was completed by ' + details.payer.name.given_name + '!';
                 });
             }
         }).render('#paypal-button-container');
@@ -56,6 +61,12 @@ require "views/partials/header.partial.php";
 
         </script>
     </div>
+</div>
+
+<!--Hidden thank you row.-->
+<div class="row" id="thank" style="display:none">
+    <h1 class="gen-headers pay-header fg-primary">Thank you!</h1>
+    <p class="money" id="mon"></p>
 </div>
 
 <!--Footer-->
