@@ -6,7 +6,7 @@ $css="404.css";
 //Custom nav information
 $nav="Missing Page!";
 //Custom Body Size for the Footer
-$body="100vh";
+$body="77.8vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

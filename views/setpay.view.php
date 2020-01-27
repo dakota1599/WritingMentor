@@ -6,7 +6,7 @@ $css="pay.css";
 //Custom nav information
 $nav="Make a Payment";
 //Custom Body Size for the Footer
-$body="100vh";
+$body="67.6vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

@@ -6,7 +6,7 @@ $css="thankyou.css";
 //Custom nav information
 $nav="Sign Up Complete";
 //Custom Body Size for the Footer
-$body="100vh";
+$body="77.8vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

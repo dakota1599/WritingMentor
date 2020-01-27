@@ -6,7 +6,7 @@ $css="services.css";
 //Custom nav information
 $nav="Tutoring Services";
 //Custom Body Size for the Footer
-$body="150vh";
+$body="77vh";
 
 //Pulls in the header partial.
 require "views/partials/header.partial.php";

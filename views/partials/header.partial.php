@@ -45,6 +45,11 @@ require "core/variables.php";
     html, body{
         height:<?=$body?>;
     }
+    @media only screen and (min-height: 900px){
+        html, body{
+            height: 100vh;
+        }
+    }
     </style>
 
     <!--AOS Stuff-->
