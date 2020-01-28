@@ -19,7 +19,7 @@ require "views/partials/header.partial.php";
     <!--Thank you/instructional message.-->
     <p class="body transition">
         You have been signed up for <?=$type?> and will receive an email receipt. I will be in contact
-        with the email you provided soon!
+        via the email you provided soon!
         <hr class="divider transition">
     </p>
     <!--Links back to the services and home page.-->
