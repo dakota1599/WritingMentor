@@ -35,13 +35,13 @@ class StaticPageController{
             }else{
                 
                 if(isset($_POST['human'])) {
-                     $localemail = "mail@dakotashapiro.info";
+                     $localemail = "no-reply@writingsosmentor.com";
                      $adminemail = "";
                 $name = $_POST['name'];
                 $last = $_POST['last'];
-                 $sender_address = "dakotashapirodev@gmail.com";
+                 $sender_address = "writing.sos.mentor@gmail.com";
                 $contact = $_POST['email'];
-                 $recipient_address = "dakotashapirodev@gmail.com";
+                 $recipient_address = "writing.sos.mentor@gmail.com";
                  $message = $_POST['info'];
         
              // Ensure both emails follow the right format (one or more alphanumeric,
