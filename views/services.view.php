@@ -40,7 +40,7 @@ require "views/partials/header.partial.php";
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
-            <a href="/service-tutoring" class="button-Shadow">Sign Up!</a>
+            <a href="/service-tutoring" class="button-Shadow">Get Quote!</a>
         </div>
     </div>
 
@@ -67,7 +67,7 @@ require "views/partials/header.partial.php";
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
-            <a href="/service-counseling" class="button-Shadow">Sign Up!</a>
+            <a href="/service-counseling" class="button-Shadow">Get Quote!</a>
         </div>
     </div>
 
@@ -90,7 +90,7 @@ require "views/partials/header.partial.php";
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
-            <a href="/service-editing" class="button-Shadow">Sign Up!</a>
+            <a href="/service-editing" class="button-Shadow">Get Quote!</a>
         </div>
     </div>
 
@@ -113,7 +113,7 @@ require "views/partials/header.partial.php";
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
-            <a href="/service-speech" class="button-Shadow">Sign Up!</a>
+            <a href="/service-speech" class="button-Shadow">Get Quote!</a>
         </div>
     </div>
 
@@ -136,7 +136,7 @@ require "views/partials/header.partial.php";
         </p>
         <!--Sign Up Button-->
         <div class="buttons">
-            <a href="/service-class" class="button-Shadow">Sign Up!</a>
+            <a href="/service-class" class="button-Shadow">Get Quote!</a>
         </div>
     </div>
 </div>
